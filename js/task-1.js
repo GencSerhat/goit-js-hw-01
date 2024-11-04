@@ -1,7 +1,7 @@
 function makeTransaction(quantity, pricePerDroid) {
   let toplam = quantity * pricePerDroid;
 
-  let mesaj = `You ordered   ${quantity}   droids worth   ${toplam}   droids worth credits `;
+  let mesaj = `You ordered   ${quantity}   droids worth   ${toplam}   credits! `;
 
   return mesaj;
 }
